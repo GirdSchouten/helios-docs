@@ -10,7 +10,8 @@ const links = [
   {
     label: "Learn About Helios",
     to: "/docs/learn/intro/what-is-helios",
-    description: "Helios is a next-generation blockchain designed for interchain automation, AI-powered smart contracts, and decentralized governance.",
+    description:
+      "Helios is the ETF-native Layer 1 where crypto, stablecoins, and RWAs become on-chain portfolios. Multi-asset secured, AI rebalanced, and governed by I-PoSR.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" color="currentColor">
@@ -24,7 +25,8 @@ const links = [
   {
     label: "Explore Insights & Articles",
     to: "/articles",
-    description: "Blockchain has always promised decentralization, interoperability, and automation, yet most solutions were either too complex for widespread adoption or too fragmented to work at scale.",
+    description:
+      "Short explainers and deep dives on ETF primitives, RWA integration, stable yield design, AI rebalancing, and governance on Helios.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" color="currentColor">
@@ -37,12 +39,13 @@ const links = [
   {
     label: "Run a Node & Stake Tokens",
     to: "/docs/build/running-a-node/system-requirements",
-    description: "Operating a node allows participants to validate transactions, secure the network, and earn rewards.",
+    description:
+      "Run a validator or delegate to secure Helios with multi-asset staking and earn rewards from AI-driven portfolio operations.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <path
           fill="currentColor"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M5 10.813h14c.99 0 1.54 0 2.06-.21c.67-.29 1.19-.81 1.48-1.49c.21-.5.21-1.06.21-2.05s0-1.54-.21-2.06c-.29-.67-.81-1.19-1.49-1.48c-.5-.21-1.05-.21-2.05-.21H5c-.99 0-1.54 0-2.06.21c-.67.29-1.19.81-1.48 1.49c-.21.5-.21 1.06-.21 2.05s0 1.54.21 2.06c.29.67.81 1.19 1.49 1.48c.5.21 1.05.21 2.05.21m0-6h14c.78 0 1.25 0 1.47.09c.31.13.55.37.68.67c.09.24.09.71.09 1.489v.001c0 .78 0 1.25-.09 1.47c-.13.31-.37.55-.67.68c-.24.09-.71.09-1.49.09h-14c-.78 0-1.25 0-1.47-.09c-.31-.13-.55-.37-.68-.67c-.09-.24-.09-.71-.09-1.49s0-1.25.09-1.47c.13-.31.37-.55.67-.68c.24-.09.71-.09 1.49-.09m0 16h14c.99 0 1.54 0 2.06-.21c.67-.29 1.19-.81 1.48-1.49c.21-.5.21-1.06.21-2.05s0-1.54-.21-2.06c-.29-.67-.81-1.19-1.49-1.48c-.5-.21-1.05-.21-2.05-.21H5c-.99 0-1.54 0-2.06.21c-.67.29-1.19.81-1.48 1.49c-.21.5-.21 1.06-.21 2.05s0 1.54.21 2.06c.29.67.81 1.19 1.49 1.48c.5.21 1.05.21 2.05.21m0-6h14c.78 0 1.25 0 1.47.09c.31.13.55.37.68.67c.09.24.09.71.09 1.489v.001c0 .78 0 1.25-.09 1.47c-.13.31-.37.55-.67.68c-.24.09-.71.09-1.49.09h-14c-.78 0-1.25 0-1.47-.09c-.31-.13-.55-.37-.68-.67c-.09-.24-.09-.71-.09-1.49s0-1.25.09-1.47c.13-.31.37-.55.67-.68c.24-.09.71-.09 1.49-.09m1.01 3.25c-.55 0-1-.45-1-1s.44-1 1-1c.55 0 1 .45 1 1s-.45 1-1 1m3-1c0 .55.45 1 1 1s1-.45 1-1s-.45-1-1-1c-.56 0-1 .45-1 1m-3-9c-.55 0-1-.45-1-1s.44-1 1-1c.55 0 1 .45 1 1s-.45 1-1 1m3-1c0 .55.45 1 1 1s1-.45 1-1s-.45-1-1-1c-.56 0-1 .45-1 1"
           color="currentColor"
         />
@@ -52,7 +55,8 @@ const links = [
   {
     label: "Build & Deploy on Helios",
     to: "/docs/innovate/building-with-helios/developing-dapps",
-    description: "Helios provides a robust EVM-compatible and Cosmos SDK-based environment for developers to build decentralized applications (dApps) with enhanced interoperability, governance, and security features.",
+    description:
+      "Build ETF products, index baskets, and automation with EVM compatibility, Cosmos SDK modules, Hyperion connectivity, and Chronos scheduling.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" color="currentColor">
@@ -65,12 +69,13 @@ const links = [
   {
     label: "Participate in Governance",
     to: "/docs/build/staking-governance/governance-proposals",
-    description: "Helios features on-chain governance that allows validators and stakeholders to influence network parameters.",
+    description:
+      "Weight-based governance that sets portfolio compositions, asset weights, and policy. Propose, vote, and shape the ETF layer.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <path
           fill="currentColor"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M10.75 5.75a1.25 1.25 0 1 1 2.5 0a1.25 1.25 0 0 1-2.5 0m2 2.65c.92-.26 1.64-.98 1.9-1.9H20c.41 0 .75-.34.75-.75S20.41 5 20 5h-5.35c-.33-1.15-1.39-2-2.65-2s-2.32.85-2.65 2H4c-.41 0-.75.34-.75.75s.34.75.75.75h5.35c.26.92.98 1.64 1.9 1.9V21H7c-.41 0-.75.34-.75.75s.34.75.75.75h10c.41 0 .75-.34.75-.75S17.41 21 17 21h-4.25zm5.06.06A.74.74 0 0 1 18.5 8h1c.3 0 .58.18.69.46l2.5 6c.04.09.06.19.06.29c0 2.07-1.68 3.75-3.75 3.75s-3.75-1.68-3.75-3.75c0-.1.02-.2.06-.29zM19 9.5L17.12 14h3.76zm-2.12 6c.31.87 1.14 1.5 2.12 1.5s1.81-.63 2.12-1.5zM4.5 8c-.3 0-.58.18-.69.46l-2.5 6c-.04.09-.06.19-.06.29c0 2.07 1.68 3.75 3.75 3.75s3.75-1.68 3.75-3.75c0-.1-.02-.2-.06-.29l-2.5-6A.74.74 0 0 0 5.5 8zm-1.37 6L5 9.5L6.88 14zM5 17c-.98 0-1.81-.63-2.12-1.5h4.24C6.81 16.37 5.98 17 5 17"
           color="currentColor"
         />
@@ -80,7 +85,8 @@ const links = [
   {
     label: "Join the Helios Community",
     to: "https://discord.com/invite/AjpJnJxt5e",
-    description: "Join our Discord server to discuss and ask questions with builders around the Helios ecosystem.",
+    description:
+      "Join our Discord to collaborate with builders and discuss ETF products, governance, testnet progress, and releases across the Helios ecosystem.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
         <path
@@ -119,7 +125,10 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={`Welcome`} description="Helios Hub is your gateway to the future of blockchain. Learn, build, and innovate with AI-powered automation, cross-chain interoperability, and decentralized governance.">
+    <Layout
+      title={`Welcome`}
+      description="Helios Hub is your gateway to the ETF-native blockchain. Learn, build, and innovate with AI-managed portfolios, cross-chain ETFs, and weight-based governance."
+    >
       <HomepageHeader />
     </Layout>
   )

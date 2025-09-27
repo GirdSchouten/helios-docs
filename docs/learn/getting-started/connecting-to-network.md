@@ -6,7 +6,7 @@ To interact with Helios, you need to connect your wallet using **RPC settings**.
 
 | Network  | Chain ID | RPC URL | Block Explorer |
 |----------|---------|---------|----------------|
-| **Helios Testnet** | 4141 | https://testnet1.helioschainlabs.org  | https://explorer-testnet.helioschain.network |
+| **Helios Testnet** | 42000 | https://testnet1.helioschainlabs.org  | https://explorer.helioschainlabs.org |
 | **Helios Mainnet** | 4242 | https://dataseed.helioschain.network | https://explorer.helioschainlabs.org |
 
 *Testnet and mainnet details will be updated once live.*
